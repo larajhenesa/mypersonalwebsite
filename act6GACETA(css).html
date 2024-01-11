@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment Audition Forms</title>
+  <style>
+    body {
+      font-family: 'Times New Romans', Times New Romans;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-family: bold;
+      text-align: center;
+      color: #333;
+	  background-color: yellow;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: lightpink ;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: lightblue;
+      color: black;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+ 
+   .button-container {
+   text-align: center;
+}
+  </style>
+</head>
+
+<body>
+
+<form>
+     <h1><center> Entertainment Audition Forms </h1></center> 
+	 <br>
+     <p><b> Auditionee Personal Information </p></b>
+	 
+  
+  First Name: <input type="text">  Last Name: <input type="text"> Email: <input type="text"> <br><br>
+  Address: <input type="text"> Age: <input type="text" maxlength="3" size="3">  Birth Date: <input type="text">
+  
+  <p><b> Gender </b></p>      
+  
+  <input type="radio" name="Gender" value="Female"> Female <input type="radio" name="Gender" value="Male"> Male <br>
+  
+  <p><b> Relationship </b></p>
+  
+  <input type="radio" name="Relationship" value="Single"> Single <input type="radio" name="Relationship" value="Married"> Married <input type="radio" name="Relationship" value="Taken"> Taken <br>
+
+   <p><b> Education </b></p>
+  
+  <select name ="Education">
+  
+          <option value="Elementary Graduate"> Elementary Graduate </option> 
+		  <option value="High School Graduate"> High School Graduate </option>
+		  <option value="Senior High School Graduate"> Senior High School Graduate </option>
+		  <option value="College Graduate"> College Graduate </option>
+          <option value="Still Studying"> Still Studying </option>		  
+		  
+   </select>    
+   
+   <p><b> Religion </b></p>
+  
+  <select name ="Religion">
+  
+          <option value="Roman Catholic"> Roman Catholic </option> 
+		  <option value="Iglesia ni Cristo (INC)"> Iglesia ni Cristo (INC) </option>
+		  <option value="Islam"> Islam </option>
+		  <option value="Buddhism"> Buddhism </option> 
+		  <option value="Hinduism"> Hinduism </option>
+          <option value="Judaism"> Judaism </option>
+          <option value="Igorot and Cordilleran"> Igorot and Cordilleran </option>		  
+		  
+   </select>    
+   
+   <p><b> ID Picture </b></p>	
+   
+   <input type="file" name="uploadfield">
+   
+   <p><b> What is your Skills or Talent? </b></p>
+  
+  <input type="checkbox" name="Skills or Talent" value="Singing"> Singing <br>
+  <input type="checkbox" name="Skills or Talent" value="Dancing"> Dancing <br>
+  <input type="checkbox" name="Skills or Talent" value="Acting"> Acting <br>
+  <input type="checkbox" name="Skills or Talent" value="Modelling"> Modelling <br>
+  <input type="checkbox" name="Skills or Talent" value="Voiceover Skills"> Voiceover Skills <br>
+  <input type="checkbox" name="Skills or Talent" value="Comedy and Impression Skills"> Comedy and Impression Skills <br>
+  <input type="checkbox" name="Skills or Talent" value="Puppetry"> Puppetry <br> <br>
+  
+  Any unique talents or abilities relevant to the audition: <input type="text"> <br>
+ 
+  <p><b> Performance Experience </p></b>
+  <p> Roles or performances you've done in the past: </p>
+  
+  <textarea cols="30" rows="3">
+  
+  </textarea>
+  
+  <br>
+  
+  <p> Previous acting, singing, dancing, or other performance experience: </p>
+  
+  <textarea cols="30" rows="3">
+  
+  </textarea>
+  
+  <p><b> Availability and Schedule </p></b>
+  
+  Availability for rehearsals, shoots, or performance dates: <br><br>
+  
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Monday"> Monday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Tuesday"> Tuesday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Wednesday"> Wednesday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Thursday"> Thursday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Friday"> Friday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Saturday"> Saturday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Sunday"> Sunday 
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Weekdays"> Weekdays
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Weekend"> Weekend
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="Whole Week"> Whole Week <br> <br>
+  
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="8:00 AM-9:00 AM"> 8:00 AM-9:00 AM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="9:30 AM-10:30 AM"> 9:30 AM-10:30 AM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="10:30AM-11:30AM"> 10:30 AM-11:30 AM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="1:00 PM-2:00 PM"> 1:00 PM-2:00 PM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="2:30 PM-3:00 PM"> 2:30 PM-3:00 PM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="3:00 PM-4:30 PM"> 3:00 PM-4:30 PM
+  <input type="checkbox" name="rehearsals, shoots, or performance dates" value="5:00 PM-6:30 PM"> 5:00 PM-6:30 PM <br> 
+  
+  <p> Any scheduling conflicts that might arise during the production period? </p>  
+  
+  <input type="radio" name="scheduling conflicts" value="Yes"> Yes <input type="radio" name="scheduling conflicts" value="No"> No <br><br>
+  
+  If yes, State the problem: <br>
+  
+  <textarea cols="30" rows="3">
+  
+  </textarea> 
+  
+  <br>
+  
+  <p><b> Motivation and Aspirations: </p></b>
+
+  What inspires you in the entertainment industry? <br> 
+  
+   <textarea cols="30" rows="3">       
+  
+  </textarea>
+  
+  <br>
+  
+  Your goals and aspirations as a performer. <br>
+  
+  <textarea cols="30" rows="3">       
+  
+  </textarea>
+  <br> <br>
+  
+  
+  <input type="submit" value="Submit">  <input type="reset" value="Reset">
+  
+  
+
+         
+</body>
+</html>
+
+
+
